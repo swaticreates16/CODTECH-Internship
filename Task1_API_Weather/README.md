@@ -4,8 +4,6 @@
 
 This task demonstrates how to use **Python** to fetch real-time weather data from a **public API (OpenWeatherMap)** and create **visualizations using Matplotlib**.
 
-This fulfills the CODTECH internship requirement for **API Integration and Data Visualization**.
-
 ---
 
 ## 📌 Objective
