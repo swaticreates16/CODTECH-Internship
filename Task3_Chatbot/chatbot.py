@@ -5,7 +5,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 
 # Load SQL knowledge from JSON file
-with open("sql_data.json") as file:
+with open("data.json") as file:
     data = json.load(file)
 
 # Variables to keep track of conversation and quiz
@@ -113,3 +113,4 @@ while True:
     if user.lower() == "quit":
         break
     print("Bot:", get_response(user))
+
