@@ -1,12 +1,9 @@
----
-
-# 🌦️ Task-1: Weather API Integration & Visualization
+# Task-1: Weather API Integration & Visualization
 
 This task demonstrates how to use **Python** to fetch real-time weather data from a **public API (OpenWeatherMap)** and create **visualizations using Matplotlib**.
 
----
 
-## 📌 Objective
+## Objective
 
 To:
 
@@ -15,9 +12,8 @@ To:
 * Visualize it using Matplotlib
 * Save results as CSV and PNG files
 
----
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
@@ -26,9 +22,7 @@ To:
 * Matplotlib
 * OpenWeatherMap API
 
----
-
-## 📁 Files in This Folder
+## Files in This Folder
 
 | File               | Description                     |
 | ------------------ | ------------------------------- |
@@ -37,9 +31,8 @@ To:
 | `requirements.txt` | Required Python libraries       |
 | `output_samples/`  | Sample CSV and PNG output files |
 
----
 
-## ▶️ How to Run
+## How to Run
 
 1. Install dependencies:
 
@@ -55,9 +48,8 @@ streamlit run main.py
 
 3. Open the browser link shown in the terminal.
 
----
 
-## 📊 Output
+##  Output
 
 The app generates:
 
@@ -82,34 +74,13 @@ mumbai_delhi_wind.png
 
 ---
 
-## 📷 Sample Outputs
+## Sample Outputs
 
 Screenshots and example files are available in:
 
 ```text
 output_samples/
 ```
-
----
-
-## ✅ Internship Requirement Mapping
-
-| CODTECH Requirement             | Status |
-| ------------------------------- | ------ |
-| Fetch data from Public API      | ✔      |
-| Use OpenWeatherMap              | ✔      |
-| Visualize using Matplotlib      | ✔      |
-| Provide Python Script           | ✔      |
-| Provide Visualization Dashboard | ✔      |
-
----
-
-## 👩‍💻 Author
-
-**Swati Singh**
-
----
-
 ## 📄 License
 
 This project is free to use for learning and internship submission.🚀
