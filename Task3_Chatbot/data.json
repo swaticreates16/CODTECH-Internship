@@ -1,0 +1,186 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning"],
+      "responses": ["Hello! I am your SQL Assistant 🤖", "Hi! Ask me anything about SQL."]
+    },
+
+    {
+      "tag": "sql",
+      "patterns": ["What is SQL", "Define SQL", "Explain SQL"],
+      "responses": ["SQL stands for Structured Query Language. It is used to store, retrieve, and manage data in relational databases."]
+    },
+
+    {
+      "tag": "ddl",
+      "patterns": ["What is DDL", "DDL commands", "Define DDL"],
+      "responses": ["DDL stands for Data Definition Language. It is used to define database structure. Commands include CREATE, ALTER, DROP, TRUNCATE."]
+    },
+
+    {
+      "tag": "sql",
+      "patterns": ["what is sql", "define sql", "explain sql", "sql meaning"],
+      "responses": ["SQL stands for Structured Query Language. It is used to store, retrieve, and manage data in relational databases."]
+    },
+
+    {
+      "tag": "alter",
+      "patterns": ["What is ALTER", "modify table"],
+      "responses": ["ALTER modifies table structure. Example: ALTER TABLE students ADD age INT;"]
+    },
+
+    {
+      "tag": "drop",
+      "patterns": ["What is DROP", "delete table"],
+      "responses": ["DROP deletes a table permanently. Example: DROP TABLE students;"]
+    },
+
+    {
+      "tag": "truncate",
+      "patterns": ["What is TRUNCATE", "remove all rows"],
+      "responses": ["TRUNCATE removes all records from a table without deleting its structure."]
+    },
+
+    {
+      "tag": "dml",
+      "patterns": ["What is DML", "DML commands"],
+      "responses": ["DML stands for Data Manipulation Language. It includes SELECT, INSERT, UPDATE, DELETE."]
+    },
+
+    {
+      "tag": "select",
+      "patterns": ["What is SELECT", "fetch data"],
+      "responses": ["SELECT retrieves data. Example: SELECT * FROM students;"]
+    },
+
+    {
+    "tag": "insert",
+    "patterns": ["insert", "what is insert", "insert command", "add record", "add data"],
+    "responses": [
+        "INSERT is used to add new records to a table. Example: INSERT INTO students VALUES(1,'Amit',20);",
+        "INSERT adds data into a table. Example: INSERT INTO customers(name, city) VALUES('Rahul','Mumbai');"
+    ]
+    },
+
+    {
+      "tag": "update",
+      "patterns": ["UPDATE", "modify data"],
+      "responses": ["UPDATE changes data. Example: UPDATE students SET age=21 WHERE id=1;"]
+    },
+
+    {
+      "tag": "delete",
+      "patterns": ["DELETE", "remove row"],
+      "responses": ["DELETE removes rows. Example: DELETE FROM students WHERE id=1;"]
+    },
+
+    {
+      "tag": "dcl",
+      "patterns": ["What is DCL", "DCL commands"],
+      "responses": ["DCL stands for Data Control Language. It includes GRANT and REVOKE."]
+    },
+
+    {
+      "tag": "grant",
+      "patterns": ["What is GRANT", "give permission"],
+      "responses": ["GRANT gives privileges. Example: GRANT SELECT ON students TO user1;"]
+    },
+
+    {
+      "tag": "revoke",
+      "patterns": ["What is REVOKE", "remove permission"],
+      "responses": ["REVOKE removes privileges. Example: REVOKE SELECT ON students FROM user1;"]
+    },
+
+    {
+      "tag": "tcl",
+      "patterns": ["What is TCL", "transaction commands"],
+      "responses": ["TCL stands for Transaction Control Language. It includes COMMIT, ROLLBACK, SAVEPOINT."]
+    },
+
+    {
+      "tag": "commit",
+      "patterns": ["What is COMMIT"],
+      "responses": ["COMMIT saves changes permanently."]
+    },
+
+    {
+      "tag": "rollback",
+      "patterns": ["What is ROLLBACK"],
+      "responses": ["ROLLBACK undoes changes since last commit."]
+    },
+
+    {
+      "tag": "savepoint",
+      "patterns": ["What is SAVEPOINT"],
+      "responses": ["SAVEPOINT sets a point to which a transaction can be rolled back."]
+    },
+
+    {
+      "tag": "primarykey",
+      "patterns": ["What is primary key"],
+      "responses": ["Primary Key uniquely identifies each record."]
+    },
+
+    {
+      "tag": "foreignkey",
+      "patterns": ["What is foreign key"],
+      "responses": ["Foreign Key links one table to another."]
+    },
+
+    {
+      "tag": "join",
+      "patterns": ["What is join", "inner join", "left join"],
+      "responses": ["JOIN combines rows from multiple tables based on a common column."]
+    },
+
+    {
+    "tag": "normalization",
+    "patterns": ["normalization", "what is normalization", "explain normalization", "database normalization"],
+    "responses": [
+        "Normalization is the process of organizing data to reduce redundancy and improve data integrity.",
+        "Normalization divides large tables into smaller ones and links them using relationships to avoid duplicate data."
+    ]
+    },
+
+    {
+      "tag": "aggregate",
+      "patterns": ["COUNT", "SUM", "AVG", "aggregate functions"],
+      "responses": ["Aggregate functions perform calculations on data, like COUNT(), SUM(), AVG()."]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": ["Bye", "Exit", "Goodbye"],
+      "responses": ["Bye! Keep practicing SQL", "Goodbye!"]
+    }
+    ,
+    {
+      "tag": "mcq_bank",
+      "questions": [
+        {
+          "q": "Which SQL command is used to create a table?",
+          "options": ["INSERT", "CREATE", "UPDATE", "DELETE"],
+          "answer": 1
+        },
+        {
+          "q": "Which command removes all rows but keeps the table?",
+          "options": ["DROP", "DELETE", "TRUNCATE", "REMOVE"],
+          "answer": 2
+        },
+        {
+          "q": "Which key uniquely identifies a record?",
+          "options": ["Foreign Key", "Primary Key", "Candidate Key", "Composite Key"],
+          "answer": 1
+        },
+        {
+          "q": "Which command saves changes permanently?",
+          "options": ["ROLLBACK", "COMMIT", "SAVEPOINT", "DELETE"],
+          "answer": 1
+        }
+  ]
+}
+
+  ]
+}
