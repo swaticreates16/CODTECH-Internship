@@ -1,11 +1,11 @@
 
 
-# 📄 Task-2: Automated PDF Report Generation
+# Task-2: Automated PDF Report Generation
 
 This task demonstrates how to use **Python** to read data from a file, analyze it, and generate a **formatted PDF report** using the **ReportLab** library.
 
 
-## 📌 Objective
+## Objective
 
 To:
 
@@ -15,14 +15,14 @@ To:
 * Automate the reporting process
 
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
 * ReportLab
 
 
-## 📁 Files in This Folder
+## Files in This Folder
 
 | File                                | Description                                     |
 | ----------------------------------- | ----------------------------------------------- |
@@ -32,7 +32,7 @@ To:
 | `README.md`                         | Documentation                                   |
 
 
-## ▶️ How to Run
+## How to Run
 
 1. Install required libraries:
 
@@ -49,7 +49,7 @@ python report_script.py
 3. A PDF file named **`Student_Report.pdf`** will be generated.
 
 
-## 📊 What the Script Does
+## What the Script Does
 
 The script performs the following steps:
 
@@ -62,7 +62,7 @@ The script performs the following steps:
 * Writes these results into a formatted PDF file
 
 
-## 📷 Sample Output
+## Sample Output
 
 A sample generated report is available here:
 
@@ -72,7 +72,7 @@ output_samples/Student_Report.pdf
 
 ---
 
-## ✅ Internship Requirement Mapping
+## Internship Requirement Mapping
 
 | CODTECH Requirement   | Status |
 | --------------------- | ------ |
@@ -81,15 +81,4 @@ output_samples/Student_Report.pdf
 | Generate PDF report   | ✔      |
 | Provide script        | ✔      |
 | Provide sample output | ✔      |
-
-
-## 👩‍💻 Author
-
-**Swati Singh**
-
-
-## 📄 License
-
-This project is free to use for learning and internship submission.
-
 
